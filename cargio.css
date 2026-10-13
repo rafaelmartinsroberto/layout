@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-family: arial, sans-serif;
+    background-color: #f1f5f9;
+    color:#1e293b;
+}
+
+header {
+    text-align: center;
+    padding: 30px 15px;
+    background-color: #1d4cd8;
+    color:white;
+} 
+
+.sebastiao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 20px;
+}
+
+.brilhante{
+    background-color: white;
+    padding: 25px;
+    border-radius:12px;
+    flex: 1 1 220px;
+    max-width: 320px;
+    box-shadow: 0 3px 10px #00000015;
+}
+
+.brilhante h2{
+    color: #2563eb;
+}
+
+@media (max-width: 600px) {
+    .sebasiao {
+        flex-direction: column;
+        align-items: center;
+    }
+    .brilhante{
+        width: 100%;
+    }
+}
